@@ -1,2 +1,2 @@
 # JavaScriptTutorial
-자바스크립트 시작하기
+JavaScript基礎知識学習
