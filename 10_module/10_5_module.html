@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="jquery-3.7.1.js"></script>
+    <ul id="list">
+        <li>empty</li>
+        <li>empty</li>
+        <li>empty</li>
+        <li>empty</li>
+    </ul>
+    <input type="button" value="execute" id="execute_btn">
+    <script>
+        //제이쿼리는 $로 임포트하고 사용할 때도 $로 시작한다.
+        //#은 html에 태그의 id에 해당하는 곳을 건들겠다는 의미이다.
+        //위의 경우는 list태그의 li태그에 텍스트를 전부 coding everybody로 변환하여 출력한다.
+        $('#execute_btn').click(function(){
+            $('#list li').text('coding everybody');
+        })
+    </script>
+</body>
+</html>
